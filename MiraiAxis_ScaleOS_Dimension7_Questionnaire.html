@@ -917,7 +917,8 @@ async function submitAssessment(){
           company: details.company,
           dimension: 'D7',
           score: overall,
-          confidencePct: evidenceStats.availablePct
+          confidencePct: evidenceStats.availablePct,
+          revenue: details.revenue
         })
       });
     }catch(err){
